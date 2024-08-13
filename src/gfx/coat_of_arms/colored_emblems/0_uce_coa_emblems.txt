@@ -1,0 +1,300 @@
+﻿# Emblems used in the CoA designer.
+# The order defines the order in which they are listed.
+#
+# Format:
+# filename = {
+#     # How many colors options to show for this emblem. Optional, will assume maximum number of colors if missing
+#     colors = 3
+#
+#     # Whether to show the emblem in the CoA designer. Default yes.
+#     # Add an entry with no to allow specifying number of colors for emblems used in adjusted mode
+#     visible = no
+# }
+#
+#
+# Use the count_unique_emblem_colors console command to generate this instead of manually doing the tedium
+# Note that the command does NOT preserve your visible definitions, so you'll want to add them back in yourself, use a diff tool to make it easier
+
+# Possible categories:
+# abstract
+# animals
+# circles_spirals
+# crosses_and_knots
+# faiths
+# manmade
+# nature
+# patterns
+# tribal_seal
+# writing
+# figures
+
+# Double underscore intentional to make it the first option in the list
+ce__empty_designer.dds = { colors = 0 category = abstract }
+
+
+kalypso-anteater.dds = { colors = 3 category = animals}
+kalypso-antler.dds = { colors = 1 category = animals}
+kalypso-armadillo.dds = { colors = 3 category = animals}
+kalypso-badger.dds = { colors = 2 category = animals}
+kalypso-beaver3.dds = { colors = 2 category = animals}
+kalypso-beetle2.dds = { colors = 2 category = animals}
+kalypso-bison2.dds = { colors = 2 category = animals}
+kalypso-cheetah.dds = { colors = 3 category = animals}
+kalypso-cheetah2.dds = { colors = 3 category = animals}
+kalypso-cormorant.dds = { colors = 3 category = animals}
+kalypso-crocodile.dds = { colors = 3 category = animals}
+kalypso-dolphinnatural.dds = { colors = 1 category = animals}
+kalypso-eagle.dds = { colors = 3 category = animals}
+kalypso-eaglehelm.dds = { colors = 3 category = animals}
+kalypso-eel.dds = { colors = 2 category = animals}
+kalypso-eel-morayeel.dds = { colors = 2 category = animals}
+kalypso-falconheadhooded.dds = { colors = 3 category = animals}
+kalypso-falconhoodedonglove.dds = { colors = 3 category = animals}
+kalypso-fishtriskelion.dds = { colors = 3 category = animals}
+kalypso-gazelle.dds = { colors = 3 category = animals}
+kalypso-giraffe.dds = { colors = 3 category = animals}
+kalypso-giraffe2.dds = { colors = 2 category = animals}
+kalypso-gull.dds = { colors = 3 category = animals}
+kalypso-gull2.dds = { colors = 2 category = animals}
+kalypso-ibex2.dds = { colors = 2 category = animals}
+kalypso-kalmar.dds = { colors = 2 category = animals}
+kalypso-kraken.dds = { colors = 2 category = animals}
+kalypso-otter.dds = { colors = 3 category = animals}
+kalypso-otter4.dds = { colors = 2 category = animals}
+kalypso-rhinoceros.dds = { colors = 2 category = animals}
+kalypso-shark.dds = { colors = 2 category = animals}
+kalypso-shark2.dds = { colors = 2 category = animals}
+kalypso-shell.dds = { colors = 1 category = animals}
+kalypso-shrimp.dds = { colors = 1 category = animals}
+kalypso-snake.dds = { colors = 3 category = animals}
+kalypso-snake2.dds = { colors = 2 category = animals}
+kalypso-snake3.dds = { colors = 3 category = animals}
+kalypso-swanflying.dds = { colors = 2 category = animals}
+kalypso-whale-narwhal.dds = { colors = 2 category = animals}
+kalypso-whale-porpoise.dds = { colors = 2 category = animals}
+kalypso-whale-spernmwhale.dds = { colors = 2 category = animals}
+kalypso-wolverine.dds = { colors = 2 category = animals}
+kalypso-basilisk.dds = { colors = 3 category = animals}
+kalypso-boreyne.dds = { colors = 3 category = animals}
+kalypso-cerberus.dds = { colors = 2 category = animals}
+kalypso-cerberus2.dds = { colors = 3 category = animals}
+kalypso-dragon.dds = { colors = 3 category = animals}
+kalypso-dragon2.dds = { colors = 3 category = animals}
+kalypso-dragon3.dds = { colors = 3 category = animals}
+kalypso-dragon-asian.dds = { colors = 3 category = animals}
+kalypso-dragongoatlion.dds = { colors = 3 category = animals}
+kalypso-giffinhorse.dds = { colors = 3 category = animals}
+kalypso-hippocampus2.dds = { colors = 2 category = animals}
+kalypso-janus.dds = { colors = 3 category = animals}
+kalypso-lionwinged.dds = { colors = 3 category = animals}
+kalypso-ouroboros.dds = { colors = 3 category = animals}
+kalypso-ouroboros2.dds = { colors = 1 category = animals}
+kalypso-ouroboros3.dds = { colors = 2 category = animals}
+kalypso-ouroboros4.dds = { colors = 2 category = animals}
+kalypso-seagriffin.dds = { colors = 3 category = animals}
+kalypso-seamonster.dds = { colors = 3 category = animals}
+kalypso-bamboo2.dds = { colors = 3 category = nature}
+kalypso-borretsch.dds = { colors = 3 category = nature}
+kalypso-branch-holly.dds = { colors = 2 category = nature}
+kalypso-branch-linden.dds = { colors = 2 category = nature}
+kalypso-branch-oak.dds = { colors = 3 category = nature}
+kalypso-branch-olive.dds = { colors = 2 category = nature}
+kalypso-branch-palm.dds = { colors = 1 category = nature}
+kalypso-broomflower.dds = { colors = 3 category = nature}
+kalypso-carnation2.dds = { colors = 1 category = nature}
+kalypso-carnation3.dds = { colors = 2 category = nature}
+kalypso-cattail.dds = { colors = 2 category = nature}
+kalypso-cattail2.dds = { colors = 2 category = nature}
+kalypso-cattail3.dds = { colors = 2 category = nature}
+kalypso-cinquefoil.dds = { colors = 1 category = nature}
+kalypso-cinquefoil2.dds = { colors = 1 category = nature}
+kalypso-clover.dds = { colors = 1 category = nature}
+kalypso-columbine.dds = { colors = 3 category = nature}
+kalypso-columbine2.dds = { colors = 3 category = nature}
+kalypso-crocus.dds = { colors = 2 category = nature}
+kalypso-crocus2.dds = { colors = 2 category = nature}
+kalypso-elderflower.dds = { colors = 3 category = nature}
+kalypso-elderflower2.dds = { colors = 3 category = nature}
+kalypso-forgetmenot.dds = { colors = 3 category = nature}
+kalypso-gardenia.dds = { colors = 2 category = nature}
+kalypso-gladiola.dds = { colors = 2 category = nature}
+kalypso-ivy.dds = { colors = 1 category = nature}
+kalypso-ivy2.dds = { colors = 1 category = nature}
+kalypso-leaf-waterlily.dds = { colors = 1 category = nature}
+kalypso-leaf-seeblatt.dds = { colors = 1 category = nature}
+kalypso-leaf-seeblatt2.dds = { colors = 1 category = nature}
+kalypso-leaf-seeblatt3.dds = { colors = 1 category = nature}
+kalypso-leaf-seeblatt4.dds = { colors = 1 category = nature}
+kalypso-lilyofthevalley2.dds = { colors = 2 category = nature}
+kalypso-lotus2.dds = { colors = 1 category = nature}
+kalypso-lotus-stylised.dds = { colors = 2 category = nature}
+kalypso-malva.dds = { colors = 3 category = nature}
+kalypso-plumeria.dds = { colors = 1 category = nature}
+kalypso-plumeria2.dds = { colors = 2 category = nature}
+kalypso-rose-heraldic.dds = { colors = 3 category = nature}
+kalypso-rose-heraldic2.dds = { colors = 3 category = nature}
+kalypso-rose-heraldic3.dds = { colors = 3 category = nature}
+kalypso-sakura.dds = { colors = 2 category = nature}
+kalypso-tree.dds = { colors = 2 category = nature}
+kalypso-bars01.dds = { colors = 2 category = patterns}
+kalypso-bars02.dds = { colors = 2 category = patterns}
+kalypso-bars03.dds = { colors = 2 category = patterns}
+kalypso-bars04.dds = { colors = 2 category = patterns}
+kalypso-bars05.dds = { colors = 2 category = patterns}
+kalypso-bars06.dds = { colors = 3 category = patterns}
+kalypso-bars07.dds = { colors = 3 category = patterns}
+kalypso-base01.dds = { colors = 1 category = patterns}
+kalypso-base03.dds = { colors = 1 category = patterns}
+kalypso-base04.dds = { colors = 1 category = patterns}
+kalypso-base06.dds = { colors = 2 category = patterns}
+kalypso-base07.dds = { colors = 1 category = patterns}
+kalypso-base08.dds = { colors = 1 category = patterns}
+kalypso-bend01.dds = { colors = 1 category = patterns}
+kalypso-bend02.dds = { colors = 1 category = patterns}
+kalypso-bend03.dds = { colors = 1 category = patterns}
+kalypso-bend04.dds = { colors = 1 category = patterns}
+kalypso-bend05.dds = { colors = 1 category = patterns}
+kalypso-bend06.dds = { colors = 1 category = patterns}
+kalypso-bend07.dds = { colors = 3 category = patterns}
+kalypso-bend08.dds = { colors = 1 category = patterns}
+kalypso-bend09.dds = { colors = 1 category = patterns}
+kalypso-bend10.dds = { colors = 3 category = patterns}
+kalypso-bend11.dds = { colors = 3 category = patterns}
+kalypso-bend12.dds = { colors = 3 category = patterns}
+kalypso-bordure01.dds = { colors = 1 category = patterns}
+kalypso-bordure02.dds = { colors = 1 category = patterns}
+kalypso-bordure03.dds = { colors = 1 category = patterns}
+kalypso-bordure04.dds = { colors = 1 category = patterns}
+kalypso-bordure05.dds = { colors = 2 category = patterns}
+kalypso-checronbraced.dds = { colors = 2 category = patterns}
+kalypso-chevron01.dds = { colors = 2 category = patterns}
+kalypso-chevron02.dds = { colors = 3 category = patterns}
+kalypso-chevron03.dds = { colors = 3 category = patterns}
+kalypso-chevron04.dds = { colors = 1 category = patterns}
+kalypso-chevron05.dds = { colors = 1 category = patterns}
+kalypso-chevron06.dds = { colors = 1 category = patterns}
+kalypso-chevron07.dds = { colors = 1 category = patterns}
+kalypso-chevron08.dds = { colors = 1 category = patterns}
+kalypso-chief01.dds = { colors = 1 category = patterns}
+kalypso-chief02.dds = { colors = 1 category = patterns}
+kalypso-chief03.dds = { colors = 1 category = patterns}
+kalypso-cross01.dds = { colors = 2 category = patterns}
+kalypso-cross02.dds = { colors = 3 category = patterns}
+kalypso-cross03.dds = { colors = 2 category = patterns}
+kalypso-cross06.dds = { colors = 3 category = patterns}
+kalypso-crosspattern01.dds = { colors = 2 category = patterns}
+kalypso-crosspattern02.dds = { colors = 1 category = patterns}
+kalypso-ermine2.dds = { colors = 1 category = patterns}
+kalypso-fess01.dds = { colors = 1 category = patterns}
+kalypso-fess02.dds = { colors = 2 category = patterns}
+kalypso-fess03.dds = { colors = 1 category = patterns}
+kalypso-fess04.dds = { colors = 1 category = patterns}
+kalypso-fess05.dds = { colors = 1 category = patterns}
+kalypso-fretcross.dds = { colors = 1 category = patterns}
+kalypso-fretty01.dds = { colors = 1 category = patterns}
+kalypso-fretty02.dds = { colors = 1 category = patterns}
+kalypso-lile-chevron.dds = { colors = 1 category = patterns}
+kalypso-meander.dds = { colors = 1 category = patterns}
+kalypso-pale01.dds = { colors = 1 category = patterns}
+kalypso-pale02.dds = { colors = 1 category = patterns}
+kalypso-perbend01.dds = { colors = 1 category = patterns}
+kalypso-perbend02.dds = { colors = 1 category = patterns}
+kalypso-perbend03.dds = { colors = 1 category = patterns}
+kalypso-amphora2.dds = { colors = 2 category = manmade}
+kalypso-amphora4.dds = { colors = 3 category = manmade}
+kalypso-arch.dds = { colors = 3 category = manmade}
+kalypso-armour.dds = { colors = 3 category = manmade}
+kalypso-arrow2.dds = { colors = 2 category = manmade}
+kalypso-arrow-stack.dds = { colors = 3 category = manmade}
+kalypso-arrow-stack2.dds = { colors = 3 category = manmade}
+kalypso-axe.dds = { colors = 2 category = manmade}
+kalypso-axe-double.dds = { colors = 3 category = manmade}
+kalypso-boat-frontal.dds = { colors = 2 category = manmade}
+kalypso-boat-gondola.dds = { colors = 2 category = manmade}
+kalypso-boat2.dds = { colors = 2 category = manmade}
+kalypso-chain.dds = { colors = 2 category = manmade}
+kalypso-chalice.dds = { colors = 2 category = manmade}
+kalypso-club.dds = { colors = 1 category = manmade}
+kalypso-club2.dds = { colors = 1 category = manmade}
+kalypso-coat.dds = { colors = 3 category = manmade}
+kalypso-coat2.dds = { colors = 3 category = manmade}
+kalypso-column-broken.dds = { colors = 3 category = manmade}
+kalypso-column-crown.dds = { colors = 3 category = manmade}
+kalypso-cord.dds = { colors = 1 category = manmade}
+kalypso-crown.dds = { colors = 3 category = manmade}
+kalypso-crown3.dds = { colors = 3 category = manmade}
+kalypso-crownofthorns-cross.dds = { colors = 2 category = manmade}
+kalypso-crownofthorns.dds = { colors = 2 category = manmade}
+kalypso-crowsnest.dds = { colors = 2 category = manmade}
+kalypso-crutch.dds = { colors = 2 category = manmade}
+kalypso-dagger-triskelion.dds = { colors = 3 category = manmade}
+kalypso-door.dds = { colors = 3 category = manmade}
+kalypso-door2.dds = { colors = 3 category = manmade}
+kalypso-fan.dds = { colors = 2 category = manmade}
+kalypso-fan2.dds = { colors = 3 category = manmade}
+kalypso-featherscroll.dds = { colors = 2 category = manmade}
+kalypso-featherscroll2.dds = { colors = 2 category = manmade}
+kalypso-file.dds = { colors = 2 category = manmade}
+kalypso-fishhook-triskelion.dds = { colors = 3 category = manmade}
+kalypso-flag.dds = { colors = 2 category = manmade}
+kalypso-flag2.dds = { colors = 2 category = manmade}
+kalypso-flag3.dds = { colors = 2 category = manmade}
+kalypso-flag4.dds = { colors = 2 category = manmade}
+kalypso-flag5.dds = { colors = 3 category = manmade}
+kalypso-flute.dds = { colors = 3 category = manmade}
+kalypso-guillotine.dds = { colors = 2 category = manmade}
+kalypso-hat-helm.dds = { colors = 3 category = manmade}
+kalypso-hat-helm2.dds = { colors = 3 category = manmade}
+kalypso-hat-helm3.dds = { colors = 3 category = manmade}
+kalypso-hat-helm-roman.dds = { colors = 3 category = manmade}
+kalypso-hat-hood.dds = { colors = 2 category = manmade}
+kalypso-hook.dds = { colors = 2 category = manmade}
+kalypso-horseshoe.dds = { colors = 1 category = manmade}
+kalypso-kama.dds = { colors = 3 category = manmade}
+kalypso-lighthouse.dds = { colors = 3 category = manmade}
+kalypso-mace.dds = { colors = 3 category = manmade}
+kalypso-mace2.dds = { colors = 3 category = manmade}
+kalypso-pole.dds = { colors = 2 category = manmade}
+kalypso-polearm-bardiche.dds = { colors = 2 category = manmade}
+kalypso-polearm-billhook.dds = { colors = 2 category = manmade}
+kalypso-polearm-glaive.dds = { colors = 2 category = manmade}
+kalypso-polearm-poleaxe.dds = { colors = 2 category = manmade}
+kalypso-polearm-warscythe.dds = { colors = 2 category = manmade}
+kalypso-polearm-warscythe2.dds = { colors = 2 category = manmade}
+kalypso-scroll-closed.dds = { colors = 2 category = manmade}
+kalypso-shield.dds = { colors = 3 category = manmade}
+kalypso-shield2.dds = { colors = 3 category = manmade}
+kalypso-ship-viking.dds = { colors = 3 category = manmade}
+kalypso-ship-viking2.dds = { colors = 3 category = manmade}
+kalypso-shuriken.dds = { colors = 1 category = manmade}
+kalypso-spade.dds = { colors = 3 category = manmade}
+kalypso-sword-broken.dds = { colors = 3 category = manmade}
+kalypso-sword-gladius.dds = { colors = 3 category = manmade}
+kalypso-sword-gladius2.dds = { colors = 3 category = manmade}
+kalypso-sword-gladius3.dds = { colors = 3 category = manmade}
+kalypso-sword-grid.dds = { colors = 3 category = manmade}
+kalypso-torii.dds = { colors = 1 category = manmade}
+kalypso-torii2.dds = { colors = 1 category = manmade}
+kalypso-towerruin.dds = { colors = 2 category = manmade}
+kalypso-wheel-breakingwheel-sword.dds = { colors = 3 category = manmade}
+kalypso-wheel-breakingwheel.dds = { colors = 3 category = manmade}
+kalypso-wheel-of-catherine.dds = { colors = 3 category = manmade}
+kalypso-chaincross.dds = { colors = 2 category = crosses_and_knots}
+kalypso-cross-pointed.dds = { colors = 2 category = crosses_and_knots}
+kalypso-heartcross.dds = { colors = 2 category = crosses_and_knots}
+kalypso-knot-cavendish.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-celtic.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-celtic-heart.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-celtic-heart2.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-celtic-shamrock.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-celtic-star.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-celtic-tree.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-harrington.dds = { colors = 2 category = crosses_and_knots}
+kalypso-knot-heneage.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-hungerford.dds = { colors = 1 category = crosses_and_knots}
+kalypso-knot-lacy.dds = { colors = 3 category = crosses_and_knots}
+kalypso-knot-ormonde.dds = { colors = 2 category = crosses_and_knots}
+kalypso-knot-panchang.dds = { colors = 1 category = crosses_and_knots}
+kalypso-ornament.dds = { colors = 1 category = crosses_and_knots}
+kalypso-ornament2.dds = { colors = 1 category = crosses_and_knots}
+kalypso-ornament7.dds = { colors = 3 category = crosses_and_knots}
