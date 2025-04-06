@@ -3,4 +3,4 @@ tags={
 	"Graphics"
 }
 name="Ultimate Curated Emblems"
-supported_version="1.12.5"
+supported_version="1.14.2.2"

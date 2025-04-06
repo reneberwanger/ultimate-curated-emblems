@@ -31,7 +31,6 @@
 # Double underscore intentional to make it the first option in the list
 ce__empty_designer.dds = { colors = 0 category = abstract }
 
-
 kalypso-anteater.dds = { colors = 3 category = animals}
 kalypso-antler.dds = { colors = 1 category = animals}
 kalypso-armadillo.dds = { colors = 3 category = animals}
